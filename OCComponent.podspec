@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.name         = "OCComponent"
   s.version      = "0.0.1"
-  s.summary      = "iOS OC component."
+  s.summary      = "iOS OC component"
 
   s.description  = <<-DESC
   Net request ,call back data Serialization to CH
@@ -21,12 +21,13 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/guohongqi-china/OCComponent"
   s.license      = "MIT"
   s.author             = { "guohongqi-china" => "820003039@qq.com" }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source       = { :git => "https://github.com/guohongqi-china/OCComponent.git", :tag => s.version.to_s }
 
   s.public_header_files = "OCComponent/OCComponent.h"
   s.source_files  = "OCComponent/OCComponent.h"
+  s.requires_arc = true
 
   pch_AF = <<-EOS
 #ifndef TARGET_OS_IOS
