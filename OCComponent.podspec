@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
 
 
   s.name         = "OCComponent"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS OC component"
 
   s.description  = <<-DESC
-  Net request ,call back data Serialization to CH
+  ios Common component
                    DESC
 
   s.homepage     = "https://github.com/guohongqi-china/OCComponent"
