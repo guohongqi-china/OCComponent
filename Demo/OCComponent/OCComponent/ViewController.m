@@ -18,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
+    
+    
+    
+    
+    ////
+    
     UILabel *label = [UILabel createView:^(VNPropertyManager * _Nonnull manager) {
         manager.vn_frame(50,200,200,40).vn_BKColor([UIColor orangeColor]).vn_title(@"888888").vn_textColor([UIColor redColor]).vn_font(28).vn_alignment(NSTextAlignmentCenter).vn_addView(self.view);
     }];
